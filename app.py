@@ -1,9 +1,9 @@
 """
-서울 에어비앤비 블루오션 발굴 전략 대시보드 (v9.0)
+서울 에어비앤비 블루오션 발굴 전략 대시보드 (v9.1)
 --------------------------------------------------
 기능: 리포트 기반 1,263건 유효 데이터 정밀 분석 및 전략 제시
 설치 가이드:
-pip install streamlit pandas plotly sqlalchemy wordcloud matplotlib koreanize-matplotlib
+pip install streamlit pandas plotly sqlalchemy
 
 실행 방법:
 streamlit run airbnb/app.py --server.port 8506
@@ -16,9 +16,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 import sqlite3
 import os
-from wordcloud import WordCloud
-import matplotlib.pyplot as plt
-import koreanize_matplotlib
 
 # --- 페이지 설정 ---
 st.set_page_config(

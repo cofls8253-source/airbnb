@@ -2,9 +2,5 @@ streamlit
 pandas
 numpy
 plotly
-folium
-streamlit-folium
-wordcloud
-matplotlib
-koreanize-matplotlib
 sqlalchemy
+
